@@ -2,12 +2,10 @@
 
 ### Install xampp
 ```bash
-sudo -s
-apt update
-apt upgrade
-wget https://linktodownloadxamppxampp-linux-x64-7.1.10-0-installer.run
-chmod +x xampp-linux-x64-7.1.10-0-installer.run
-./xampp-linux-x64-7.1.10-0-installer.run
+sudo apt update -y && sudo apt upgrade -y
+wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.12/xampp-linux-x64-8.2.12-0-installer.run
+chmod +x xampp-linux-x64-8.2.12-0-installer.run
+sudo ./xampp-linux-x64-8.2.12-0-installer.run
 ```
 
 ```bash
