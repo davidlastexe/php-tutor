@@ -14,35 +14,35 @@ sudo ln -s /opt/lampp/bin/php /usr/bin/php
 
 ### In order to start all the xampp services, we need to run the following command in the terminal:
 ```bash
-/opt/lampp/xampp start
-/opt/lampp/xampp stop
-/opt/lampp/xampp restart
+sudo /opt/lampp/xampp start
+sudo /opt/lampp/xampp stop
+sudo /opt/lampp/xampp restart
 ```
 
 ### Start Apache only:
 ```bash
-/opt/lampp/xampp startapache
-/opt/lampp/xampp stopapache
+sudo /opt/lampp/xampp startapache
+sudo /opt/lampp/xampp stopapache
 ```
 
 ### Start Proftpd FTP server only:
 ```bash
-/opt/lampp/xampp startftp
-/opt/lampp/xampp stopftp
+sudo /opt/lampp/xampp startftp
+sudo /opt/lampp/xampp stopftp
 ```
 
 ### Start MySQL Database server only:
 ```bash
-/opt/lampp/xampp startmysql
-/opt/lampp/xampp stopmysql
+sudo /opt/lampp/xampp startmysql
+sudo /opt/lampp/xampp stopmysql
 ```
 
 ### Xampp help
 ```bash
-/opt/lampp/xampp --help
+sudo /opt/lampp/xampp --help
 ```
 
 ### Xampp uninstall
 ```bash
-/opt/lampp/uninstall
+sudo /opt/lampp/uninstall
 ```
