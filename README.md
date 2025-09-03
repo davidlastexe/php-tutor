@@ -9,7 +9,9 @@ sudo ./xampp-linux-x64-8.2.12-0-installer.run
 ```
 
 ```bash
-sudo ln -s /opt/lampp/bin/php /usr/bin/php
+sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
+sudo ln -s /opt/lampp/xampp /usr/local/bin/xampp
+sudo chmod -R 777 /opt/lampp/htdocs
 ```
 
 ### In order to start all the xampp services, we need to run the following command in the terminal:
@@ -18,23 +20,11 @@ sudo /opt/lampp/xampp start
 sudo /opt/lampp/xampp stop
 sudo /opt/lampp/xampp restart
 ```
-
-### Start Apache only:
+or
 ```bash
-sudo /opt/lampp/xampp startapache
-sudo /opt/lampp/xampp stopapache
-```
-
-### Start Proftpd FTP server only:
-```bash
-sudo /opt/lampp/xampp startftp
-sudo /opt/lampp/xampp stopftp
-```
-
-### Start MySQL Database server only:
-```bash
-sudo /opt/lampp/xampp startmysql
-sudo /opt/lampp/xampp stopmysql
+sudo xampp start
+sudo xampp stop
+sudo xampp restart
 ```
 
 ### Xampp help
@@ -45,9 +35,4 @@ sudo /opt/lampp/xampp --help
 ### Xampp uninstall
 ```bash
 sudo /opt/lampp/uninstall
-```
-
-### Full create, edit,...
-```bash
-sudo chmod -R 777 /opt/lampp/htdocs
 ```
