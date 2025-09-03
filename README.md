@@ -46,3 +46,8 @@ sudo /opt/lampp/xampp --help
 ```bash
 sudo /opt/lampp/uninstall
 ```
+
+### Full create, edit,...
+```bash
+sudo chmod -R 777 /opt/lampp/htdocs
+```
