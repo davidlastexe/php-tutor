@@ -12,6 +12,8 @@ sudo ./xampp-linux-x64-8.2.12-0-installer.run
 sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
 sudo ln -s /opt/lampp/xampp /usr/local/bin/xampp
 sudo chmod -R 777 /opt/lampp/htdocs
+sudo chmod -R 777 /opt/lampp/mysql
+sudo chmod 755 /opt/lampp/var/mysql
 ```
 
 ### In order to start all the xampp services, we need to run the following command in the terminal:
